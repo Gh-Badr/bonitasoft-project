@@ -547,11 +547,52 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
+    <user userName="Badr">
+      <firstName>Badr</firstName>
+      <lastName>Ghazaoui</lastName>
+      <title>Mr</title>
+      <jobTitle>manager</jobTitle>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">badr</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Mouad">
+      <firstName>Mouad</firstName>
+      <lastName>Fiali</lastName>
+      <title>Mr</title>
+      <jobTitle>technical analyst</jobTitle>
+      <manager>Badr</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">mouad</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Yassine">
+      <firstName>Yassine</firstName>
+      <lastName>Hamdane</lastName>
+      <title>Mr</title>
+      <jobTitle>developer</jobTitle>
+      <manager>Badr</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">yassine</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="member">
       <displayName>Member</displayName>
       <description></description>
+    </role>
+    <role name="Manager">
+      <displayName>Manager</displayName>
+    </role>
+    <role name="Technical Analyst">
+      <displayName>Technical Analyst</displayName>
+    </role>
+    <role name="R&amp;D Member">
+      <displayName>R&amp;D Member</displayName>
     </role>
   </roles>
   <groups>
@@ -606,6 +647,12 @@
     <group name="services" parentPath="/acme/production">
       <displayName>Services</displayName>
       <description>This group represents the services department of the ACME organization</description>
+    </group>
+    <group name="Management">
+      <displayName>Management</displayName>
+    </group>
+    <group name="Analysis">
+      <displayName>Analysis</displayName>
     </group>
   </groups>
   <memberships>
@@ -733,6 +780,22 @@
       <roleName>member</roleName>
       <groupName>north_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Badr</userName>
+      <roleName>Manager</roleName>
+      <groupName>Management</groupName>
+    </membership>
+    <membership>
+      <userName>Mouad</userName>
+      <roleName>Technical Analyst</roleName>
+      <groupName>Analysis</groupName>
+    </membership>
+    <membership>
+      <userName>Yassine</userName>
+      <roleName>R&amp;D Member</roleName>
+      <groupName>rd</groupName>
+      <groupParentPath>/acme/production</groupParentPath>
     </membership>
   </memberships>
 </organization:Organization>

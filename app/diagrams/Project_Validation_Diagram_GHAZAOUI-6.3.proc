@@ -144,7 +144,7 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_oSUDbJ0bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_oSUDbZ0bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_oSUDbp0bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
-          <connectors xmi:type="process:Connector" xmi:id="_4ELHoJ0dEe-Zf-5dD6WzBw" name="Notify proposal approved" definitionId="email" event="ON_ENTER" definitionVersion="1.2.0">
+          <connectors xmi:type="process:Connector" xmi:id="_4ELHoJ0dEe-Zf-5dD6WzBw" name="Notify proposal approved" definitionId="email" event="ON_ENTER" ignoreErrors="true" definitionVersion="1.2.0">
             <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_4ELHoZ0dEe-Zf-5dD6WzBw" definitionId="email" version="1.2.0" modelVersion="8">
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_4ELHop0dEe-Zf-5dD6WzBw" key="smtpHost">
                 <expression xmi:type="expression:Expression" xmi:id="_4ELHo50dEe-Zf-5dD6WzBw" name="localhost" content="localhost" returnTypeFixed="true"/>
@@ -215,7 +215,7 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_oSUDgZ0bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_oSUDgp0bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_oSUDg50bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
-          <connectors xmi:type="process:Connector" xmi:id="_T5x8kJ0eEe-Zf-5dD6WzBw" name="Notify proposal refusal" definitionId="email" event="ON_ENTER" definitionVersion="1.2.0">
+          <connectors xmi:type="process:Connector" xmi:id="_T5x8kJ0eEe-Zf-5dD6WzBw" name="Notify proposal refusal" definitionId="email" event="ON_ENTER" ignoreErrors="true" definitionVersion="1.2.0">
             <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_T5x8kZ0eEe-Zf-5dD6WzBw" definitionId="email" version="1.2.0" modelVersion="8">
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_T5x8kp0eEe-Zf-5dD6WzBw" key="smtpHost">
                 <expression xmi:type="expression:Expression" xmi:id="_T5x8k50eEe-Zf-5dD6WzBw" name="localhost" content="localhost" returnTypeFixed="true"/>
@@ -348,7 +348,7 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_oSUEDJ0bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_oSUEDZ0bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_oSUEDp0bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
-          <connectors xmi:type="process:Connector" xmi:id="_vhKIQJ0eEe-Zf-5dD6WzBw" name="Notify project accepted" definitionId="email" event="ON_ENTER" definitionVersion="1.2.0">
+          <connectors xmi:type="process:Connector" xmi:id="_vhKIQJ0eEe-Zf-5dD6WzBw" name="Notify project accepted" definitionId="email" event="ON_ENTER" ignoreErrors="true" definitionVersion="1.2.0">
             <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_vhKIQZ0eEe-Zf-5dD6WzBw" definitionId="email" version="1.2.0" modelVersion="8">
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_vhKIQp0eEe-Zf-5dD6WzBw" key="smtpHost">
                 <expression xmi:type="expression:Expression" xmi:id="_vhKIQ50eEe-Zf-5dD6WzBw" name="localhost" content="localhost" returnTypeFixed="true"/>
@@ -419,7 +419,7 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_oSUD-50bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_oSUD_J0bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_oSUD_Z0bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
-          <connectors xmi:type="process:Connector" xmi:id="_ArJIAJ0fEe-Zf-5dD6WzBw" name="Notify project refused" definitionId="email" event="ON_ENTER" definitionVersion="1.2.0">
+          <connectors xmi:type="process:Connector" xmi:id="_ArJIAJ0fEe-Zf-5dD6WzBw" name="Notify project refused" definitionId="email" event="ON_ENTER" ignoreErrors="true" definitionVersion="1.2.0">
             <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_ArJIAZ0fEe-Zf-5dD6WzBw" definitionId="email" version="1.2.0" modelVersion="8">
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ArJIAp0fEe-Zf-5dD6WzBw" key="smtpHost">
                 <expression xmi:type="expression:Expression" xmi:id="_ArJIA50fEe-Zf-5dD6WzBw" name="localhost" content="localhost" returnTypeFixed="true"/>
@@ -519,7 +519,7 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_oSUEGp0bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_oSUEG50bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_oSUEHJ0bEe-Zf-5dD6WzBw" name="" content="" returnTypeFixed="true"/>
-          <connectors xmi:type="process:Connector" xmi:id="_p1ODsJ0fEe-Zf-5dD6WzBw" name="Notify project delivery" definitionId="email" event="ON_ENTER" definitionVersion="1.2.0">
+          <connectors xmi:type="process:Connector" xmi:id="_p1ODsJ0fEe-Zf-5dD6WzBw" name="Notify project delivery" definitionId="email" event="ON_ENTER" ignoreErrors="true" definitionVersion="1.2.0">
             <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_p1ODsZ0fEe-Zf-5dD6WzBw" definitionId="email" version="1.2.0" modelVersion="8">
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_p1ODsp0fEe-Zf-5dD6WzBw" key="smtpHost">
                 <expression xmi:type="expression:Expression" xmi:id="_p1ODs50fEe-Zf-5dD6WzBw" name="localhost" content="localhost" returnTypeFixed="true"/>

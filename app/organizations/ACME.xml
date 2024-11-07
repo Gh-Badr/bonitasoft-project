@@ -797,5 +797,21 @@
       <groupName>rd</groupName>
       <groupParentPath>/acme/production</groupParentPath>
     </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>Manager</roleName>
+      <groupName>Management</groupName>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>Technical Analyst</roleName>
+      <groupName>Analysis</groupName>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>R&amp;D Member</roleName>
+      <groupName>rd</groupName>
+      <groupParentPath>/acme/production</groupParentPath>
+    </membership>
   </memberships>
 </organization:Organization>

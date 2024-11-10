@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "11693038-cf9f-4eaf-bb50-25b40ccd5e1a",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1730805097246,
+  "lastUpdate" : 1731274450030,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -170,7 +170,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Project: {{project.proposal}}"
+                    "value" : "Project proposal: {{project.proposal}}"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -178,6 +178,58 @@
                   }
                 },
                 "reference" : "b894006e-d5cc-4299-be1b-84b3283aeb36",
+                "hasValidationError" : false,
+                "id" : "pbText"
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Project impact: \n{{project.impact}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  }
+                },
+                "reference" : "94e71121-c82a-4990-91b3-e722aab1a169",
                 "hasValidationError" : false,
                 "id" : "pbText"
               }

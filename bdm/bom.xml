@@ -8,7 +8,8 @@
                 </field>
                 <field type="BOOLEAN" length="255" name="proposalOK" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="projectOK" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="impact" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="impact" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="proposalDescription" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

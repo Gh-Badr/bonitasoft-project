@@ -403,7 +403,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_w7sPCKBiEe-XhZAgHz6pqw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_w7sPCaBiEe-XhZAgHz6pqw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <BoundaryIntermediateEvents xmi:type="process:NonInterruptingBoundaryTimerEvent" xmi:id="_w7sPCqBiEe-XhZAgHz6pqw" name="4 days" outgoing="_w7sP-qBiEe-XhZAgHz6pqw">
-            <condition xmi:type="expression:Expression" xmi:id="_w7sPC6BiEe-XhZAgHz6pqw" name="00:00:10" content="10000L" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Long"/>
+            <condition xmi:type="expression:Expression" xmi:id="_w7sPC6BiEe-XhZAgHz6pqw" name="4 Days 00:00:00" content="345600000L" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Long"/>
           </BoundaryIntermediateEvents>
           <formMapping xmi:type="process:FormMapping" xmi:id="_w7sPDKBiEe-XhZAgHz6pqw">
             <targetForm xmi:type="expression:Expression" xmi:id="_w7sPDaBiEe-XhZAgHz6pqw" name="ValidateProject" content="11693038-cf9f-4eaf-bb50-25b40ccd5e1a" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
